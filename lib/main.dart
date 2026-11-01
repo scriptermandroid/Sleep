@@ -7,7 +7,7 @@ int _hour = 1;
 int _minute = 0;
 int _bugfix = 0;
 
-@pragma('vm:entry-point')
+@pragma('vm:entry-point') //these things basically say "DON'T DELETE" because since they aren't immediately used (they only run later on), they might get deleted in an attempt to save resources
 void aLARM() async {
   
   WidgetsFlutterBinding.ensureInitialized();
@@ -344,7 +344,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _save,
+        onPressed: _save, //this is a function onPressed similar to luau
         tooltip: 'Increment',
         child:  Text(
                   'Set Wake Time',
