@@ -9,4 +9,4 @@ Dart is an object oriented dinosaur type of programming language so it makes eve
 
 The app is made to make getting well-rested sleep easier.
 
-If seeking to run it, you will probably need VSCode, Flutter, Dart, and Android Studio installed.
+If seeking to run it, you will need VSCode, Flutter, Dart, and Android Studio installed.
